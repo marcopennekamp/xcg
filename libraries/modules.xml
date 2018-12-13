@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+
+  <module id="prod_gen_glass" group="prod_gen_glass">
+    <category ware="glass" tags="[production, module]" race="[argon, paranid, teladi]" faction="[argon, paranid, teladi, antigone, holyorder, ministry, hatikvah, alliance, scaleplate]" />
+    <compatibilities>
+      <limits production="1"/>
+      <production ware="glass" chance="50" />
+    </compatibilities>
+  </module>
+</modules>
