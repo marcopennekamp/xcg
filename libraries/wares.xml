@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<wares>
+  <ware id="glass" name="glass" description="glass" factoryname="Glass Refinery" group="refined" transport="container" volume="32" tags="container economy">
+    <price min="735" average="865" max="994" />
+    <production time="300" amount="60" method="default" name="Glass">
+      <primary>
+        <ware ware="energycells" amount="50" />
+        <ware ware="silicon" amount="80" />
+      </primary>
+      <effects>
+        <effect type="work" product="0.2" />
+      </effects>
+    </production>
+    <icon active="ware_refinedmetals" video="ware_refinedmetals_macro" />
+  </ware>
+  <ware id="module_gen_prod_glass_01" name="Glass Refinery" description="Glass Refinery" transport="container" volume="1" tags="module">
+    <price min="197231" average="232036" max="266841" />
+    <production time="791" amount="1" method="default" name="Glass Refinery">
+      <primary>
+        <ware ware="claytronics" amount="36" />
+        <ware ware="energycells" amount="73" />
+        <ware ware="hullparts" amount="135" />
+      </primary>
+    </production>
+    <research time="10">
+      <research>
+        <ware ware="research_module_production" />
+      </research>
+    </research>
+    <component ref="prod_gen_glass_macro" amount="1" />
+    <restriction licence="station_gen_basic" />
+    <owner faction="antigone" />
+    <owner faction="argon" />
+    <owner faction="holyorder" />
+    <owner faction="paranid" />
+    <owner faction="teladi" />
+  </ware>  
+</wares>
