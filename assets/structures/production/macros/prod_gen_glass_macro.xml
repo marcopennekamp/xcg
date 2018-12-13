@@ -2,7 +2,7 @@
 
 <macros>
   <macro name="prod_gen_glass_macro" class="production">
-    <component ref="prod_gen_glass" />
+    <component ref="prod_gen_refinedmetals" />
     <properties>
       <identification name="Glass" shortname="glass" description="glass" />
       <build>
