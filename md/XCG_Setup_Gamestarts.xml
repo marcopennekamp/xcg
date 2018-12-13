@@ -36,7 +36,7 @@
 				<!-- production modules -->
 				<add_blueprints wares="ware.module_gen_prod_energycells_01" />
 				<add_blueprints wares="ware.module_gen_prod_glass_01" />
-				<add_blueprints wares="ware.module_gen_prod_refinedmetals_01" />				
+				<add_blueprints wares="ware.module_gen_prod_refinedmetals_01" />
 				<add_blueprints wares="ware.module_gen_prod_water_01" />
 
 				<add_blueprints wares="ware.clothingmod_0001" />
@@ -268,13 +268,13 @@
 					<set_known object="$Zones.{$Counter}" known="true"/>
 				</do_all>
 				<find_gate name="$gates" space="player.galaxy" multiple="true"/>
-				 <do_all exact="$gates.count" counter="$i">
+				<do_all exact="$gates.count" counter="$i">
 					<set_known object="$gates.{$i}" known="true"/>
 				</do_all>
-                <find_station name="$allstations" space="player.galaxy" multiple="true" />
-                <do_all exact="$allstations.count" counter="$i">
-                    <set_known object="$allstations.{$i}" known="true" updatesnapshot="true"/>
-                </do_all>
+				<find_station name="$allstations" space="player.galaxy" multiple="true" />
+				<do_all exact="$allstations.count" counter="$i">
+					<set_known object="$allstations.{$i}" known="true" updatesnapshot="true"/>
+				</do_all>
 
 				<find_station name="$allstations" space="player.galaxy" multiple="true" />
 				<do_all exact="$allstations.count" counter="$i">

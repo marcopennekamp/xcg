@@ -11,5 +11,5 @@
   </add>
   <add sel="//basket[@id='all_container']/wares/ware[@ware='refinedmetals']" pos="after">
     <ware ware="glass" />
-  </add>    
+  </add>
 </diff>
