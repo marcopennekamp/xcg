@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: alex (192.168.3.113) at 14.09.2017_13-28-22-->
+<macros>
+  <macro name="ware_glass_macro" class="object">
+    <component ref="ware_default" />
+    <properties>
+      <identification unique="0" />
+    </properties>
+  </macro>
+</macros>
