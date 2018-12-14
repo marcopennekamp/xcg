@@ -34,8 +34,9 @@
         <set_object_commander object="$BuilderShip" commander="player.ship" />
 
         <!-- production modules -->
+        <add_blueprints wares="ware.xcg_module_gen_prod_glass_01" />
+
         <add_blueprints wares="ware.module_gen_prod_energycells_01" />
-        <add_blueprints wares="ware.module_gen_prod_glass_01" />
         <add_blueprints wares="ware.module_gen_prod_refinedmetals_01" />
         <add_blueprints wares="ware.module_gen_prod_water_01" />
 
