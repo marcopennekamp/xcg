@@ -17,3 +17,11 @@ Used for adding new macro assets to the game. These generally consist of metadat
 
 ## components.xml
 Used for adding new component assets to the game.  These generally consist of models, art, etc.  
+
+## icons.xml (not located here but related)
+
+Located in `libraries` - the game will assume any of the macros you add for production will have an icon, the `name` of the icon will be whatever you named your macro with th e prefix of `module_`
+
+```xml
+    <icon name="module_xcg_prod_gen_glass_macro" texture="extensions\XCG\assets\fx\gui\textures\xcg_prod_gen_glass_macro.dds" height="256" width="256"></icon>
+```
