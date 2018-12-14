@@ -4,7 +4,7 @@
   <macro name="xcg_prod_gen_glass_macro" class="production">
     <component ref="prod_gen_refinedmetals" />
     <properties>
-      <identification name="Glass Refinery" shortname="glass" description="glass" />
+      <identification name="Glass Production" shortname="Glass" description="Produces Glass" />
       <build>
         <sets>
           <set ref="factory" />
