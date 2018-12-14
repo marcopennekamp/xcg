@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<group name="prod_gen_glass">
-  <select macro="prod_gen_glass_macro" />
+<group name="xcg_prod_gen_glass">
+  <select macro="xcg_prod_gen_glass_macro" />
 </group>

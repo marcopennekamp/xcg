@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
+  <add sel="//basket[@id='refined']/wares/ware[@ware='refinedmetals']" pos="after">
+    <ware ware="xcg_glass" />
+  </add>
   <add sel="//basket[@id='pirate_container']/wares/ware[@ware='refinedmetals']" pos="after">
-    <ware ware="glass" />
+    <ware ware="xcg_glass" />
   </add>
   <add sel="//basket[@id='all']/wares/ware[@ware='refinedmetals']" pos="after">
-    <ware ware="glass" />
+    <ware ware="xcg_glass" />
   </add>
   <add sel="//basket[@id='all_container']/wares/ware[@ware='refinedmetals']" pos="after">
-    <ware ware="glass" />
+    <ware ware="xcg_glass" />
   </add>
 </diff>

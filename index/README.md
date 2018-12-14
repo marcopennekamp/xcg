@@ -4,12 +4,12 @@ index is where you define your specific macros and components to the game. If yo
 ## Bad
 
 ```xml
-    <entry name="prod_gen_glass_macro" value="assets\structures\production\macros\prod_gen_glass_macro"/>
+    <entry name="xcg_prod_gen_glass_macro" value="assets\structures\production\macros\xcg_prod_gen_glass_macro"/>
 ```
 
 ## Good
 ```xml
-    <entry name="prod_gen_glass_macro" value="extensions\XCG\assets\structures\production\macros\prod_gen_glass_macro"/>
+    <entry name="xcg_prod_gen_glass_macro" value="extensions\XCG\assets\structures\production\macros\xcg_prod_gen_glass_macro"/>
 ```
 
 ## macros.xml

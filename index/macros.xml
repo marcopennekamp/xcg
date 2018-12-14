@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-    <entry name="prod_gen_glass_macro" value="extensions\XCG\assets\structures\production\macros\prod_gen_glass_macro"/>
-    <entry name="ware_glass_macro" value="extensions\XCG\assets\wares\macros\ware_glass_macro"/>
+    <entry name="xcg_prod_gen_glass_macro" value="extensions\XCG\assets\structures\production\macros\xcg_prod_gen_glass_macro"/>
+    <entry name="xcg_ware_glass_macro" value="extensions\XCG\assets\wares\macros\xcg_ware_glass_macro"/>
 </index>
