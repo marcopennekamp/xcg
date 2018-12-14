@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <add sel="//basket[@id='refined_mineral']/wares/ware[@ware='refinedmetals']" pos="after">
-    <ware ware="glass" />
-  </add>
   <add sel="//basket[@id='pirate_container']/wares/ware[@ware='refinedmetals']" pos="after">
     <ware ware="glass" />
   </add>
