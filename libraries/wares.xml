@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <wares>
-  <ware id="xcg_glass" name="Glass" description="The substance created from Glass Refineries" factoryname="Glass Refinery" group="refined" transport="container" volume="32" tags="container economy">
+  <ware id="xcg_glass" name="Glass" description="The substance created from Glass Refineries" factoryname="Glass Production" group="refined" transport="container" volume="32" tags="container economy">
     <price min="735" average="865" max="994" />
-    <production time="300" amount="60" method="default" name="xcg_glass.production">
+    <production time="300" amount="60" method="default" name="Glass">
       <primary>
         <ware ware="energycells" amount="50" />
         <ware ware="silicon" amount="80" />
