@@ -89,7 +89,7 @@ These files are relatively easy to operate on, simply add your new entry to each
 <tbody>
   <tr>
     <td><code>libraries/baskets.xml</code></td>
-    <td>An xml patch file that specifies what categories this ware belongs.  It isnt certain how this is used by the game exactly, but we suspect it is used by the AI.  Recommend you put your wares in here as well.</td>
+    <td>An xml patch file that specifies what categories this ware belongs.  It isnt certain how this is used by the game exactly, but we suspect it is used by traders in jobs.xml to determine which goods they trade. So we can be more specific there.</td>
   </tr>  
   <tr>
     <td><code>libraries/modulegroups.xml</code></td>
